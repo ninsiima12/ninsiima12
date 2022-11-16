@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my class assignment</title>
+</head>
+<body>
+    <h1> Whats your name ? </h1>
+
+    <input type="text" id="tt" placeholder="Enter Name : ">
+    <input type="checkbox" checked>
+  
+  <button onclick="javascript:my()">ENTER</button>
+  <p id="demo"></p>
+</body>
+<script>
+function my() {
+  var x = document.getElementById("tt").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+</html>
